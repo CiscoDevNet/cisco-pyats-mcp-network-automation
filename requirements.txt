@@ -1,0 +1,5 @@
+# Model Context Protocol SDK for the server transport and tool decorators.
+mcp>=1.2.0
+
+# Cisco pyATS with the Genie libraries (parsers, learn/diff, Unicon connections).
+pyats[library]>=24.0

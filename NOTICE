@@ -1,0 +1,39 @@
+Cisco pyATS MCP Network Automation
+Copyright (c) 2026 Ranil Fernando
+
+This product is licensed under the Apache License, Version 2.0.
+See the LICENSE file for the full license text.
+
+------------------------------------------------------------------------------
+Third-party components
+------------------------------------------------------------------------------
+
+This project does not vendor third-party source code. It depends on the
+following packages at runtime, each licensed under its own terms:
+
+  * Cisco pyATS and the Genie libraries (pyats, pyats.aetest, genie, unicon)
+    Copyright (c) Cisco Systems, Inc.
+    Licensed under the Apache License, Version 2.0.
+    https://github.com/CiscoTestAutomation/pyats
+    https://www.apache.org/licenses/LICENSE-2.0
+
+  * Model Context Protocol Python SDK (mcp)
+    Copyright (c) Anthropic, PBC.
+    Licensed under the MIT License.
+    https://github.com/modelcontextprotocol/python-sdk
+
+Development-only dependencies (pytest, ruff, bandit) are not redistributed with
+this project and remain under their respective licenses.
+
+------------------------------------------------------------------------------
+Trademarks
+------------------------------------------------------------------------------
+
+Cisco, Cisco Modeling Labs (CML), pyATS, Genie and IOS are trademarks or
+registered trademarks of Cisco Systems, Inc. GitHub and GitHub Copilot are
+trademarks of GitHub, Inc. Visual Studio Code is a trademark of Microsoft
+Corporation. Use of these names is for identification purposes only and does not
+imply endorsement.
+
+This is an independent community project. It is not an official Cisco product,
+is not supported by Cisco TAC, and carries no Cisco warranty.

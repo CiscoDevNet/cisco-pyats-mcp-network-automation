@@ -1,0 +1,33 @@
+{
+  // VS Code MCP configuration for the Cisco pyATS MCP server.
+  // Copy this file to .vscode/mcp.json and adjust the paths.
+  // The password is requested at runtime and is never written to disk by this repo.
+  "inputs": [
+    {
+      "id": "device-password",
+      "type": "promptString",
+      "description": "Password for the Cisco lab device (used by pyATS)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "cisco-pyats-mcp": {
+      "type": "stdio",
+      // Linux/macOS: ${workspaceFolder}/.venv/bin/python
+      // Windows:     ${workspaceFolder}\\.venv\\Scripts\\python.exe
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["-m", "mcp_server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYATS_TESTBED": "${workspaceFolder}/testbed/testbed.yaml",
+        "CML_DEVICE_IP": "192.0.2.10",
+        "CML_DEVICE_USERNAME": "cisco",
+        "CML_DEVICE_PASSWORD": "${input:device-password}",
+        "CML_DEVICE_ENABLE_PASSWORD": "${input:device-password}",
+        "PYATS_MCP_ALLOW_CONFIG": "false",
+        "PYATS_MCP_ALLOW_SAVE": "false",
+        "PYATS_MCP_INSECURE_SSH": "false"
+      }
+    }
+  }
+}

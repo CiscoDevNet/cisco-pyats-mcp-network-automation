@@ -1,0 +1,43 @@
+# --- Secrets and lab-specific files (never commit) ---------------------------
+.env
+*.env
+!.env.example
+testbed/testbed.yaml
+testbed/*.yaml
+!testbed/testbed.example.yaml
+.vscode/mcp.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+known_hosts
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+pyats-env/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- pyATS runtime artefacts -------------------------------------------------
+logs/
+runinfo/
+*.log
+archive/
+
+# --- Editors and OS ----------------------------------------------------------
+.vscode/*
+!.vscode/mcp.json.example
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
