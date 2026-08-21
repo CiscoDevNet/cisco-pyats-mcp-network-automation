@@ -1,18 +1,6 @@
-# Copyright (c) 2026 Ranil Fernando
+# Copyright 2026 Cisco Systems, Inc. and its affiliates
+#
 # SPDX-License-Identifier: Apache-2.0
-#
-# pyATS testbed template for the Cisco pyATS MCP server.
-#
-# Copy this file to testbed/testbed.yaml and edit the device entries.
-# testbed/testbed.yaml is git-ignored so your lab details never leave your machine.
-#
-# Credentials are read from environment variables using the pyATS %ENV{} markup,
-# so no password is ever written into this repository. Export them before starting
-# the server (see .env.example), or supply them from your MCP client using an
-# input prompt (see .vscode/mcp.json.example).
-#
-# Validate this file with:
-#   pyats validate testbed testbed/testbed.yaml
 
 testbed:
   name: cml-lab

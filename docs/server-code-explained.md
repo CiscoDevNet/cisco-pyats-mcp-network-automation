@@ -1,3 +1,9 @@
+<!--
+Copyright 2026 Cisco Systems, Inc. and its affiliates
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # The server code explained, step by step
 
 A beginner-friendly walkthrough of the code in [`mcp_server/`](../mcp_server/),

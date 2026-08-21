@@ -1,3 +1,9 @@
+<!--
+Copyright 2026 Cisco Systems, Inc. and its affiliates
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Cisco pyATS MCP Server: run network operations from natural language in VS Code
 
 [![CI](https://github.com/CiscoDevNet/cisco-pyats-mcp-network-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/CiscoDevNet/cisco-pyats-mcp-network-automation/actions/workflows/ci.yml)
@@ -495,7 +501,7 @@ This code is licensed under the **Apache License, Version 2.0**. See
 [LICENSE](LICENSE) for the full text and [NOTICE](NOTICE) for the copyright notice
 and third-party attributions.
 
-Copyright (c) 2026 Ranil Fernando.
+Copyright 2026 Cisco Systems, Inc. and its affiliates.
 
 ---
 

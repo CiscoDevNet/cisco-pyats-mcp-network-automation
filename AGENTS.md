@@ -1,3 +1,9 @@
+<!--
+Copyright 2026 Cisco Systems, Inc. and its affiliates
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 **AGENTS.md is a simple, open format for guiding AI agents that works with your repository.**
 
 > Edit the following template to provide users with a better experience when working with coding agents (VS Code, GitHub Copilot, Cursor, Codex, Gemini CLI, etc.).

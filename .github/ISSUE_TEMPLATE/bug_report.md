@@ -1,4 +1,8 @@
 ---
+# Copyright 2026 Cisco Systems, Inc. and its affiliates
+#
+# SPDX-License-Identifier: Apache-2.0
+
 name: Bug report
 about: Report a problem with the MCP server, the tools, or the documentation
 title: "[Bug] "

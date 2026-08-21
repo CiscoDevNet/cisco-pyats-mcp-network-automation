@@ -1,3 +1,9 @@
+<!--
+Copyright 2026 Cisco Systems, Inc. and its affiliates
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # How to Contribute
 
 Thanks for your interest in contributing to `<project name>`! Here are a few general guidelines on contributing and

@@ -1,3 +1,9 @@
+<!--
+Copyright 2026 Cisco Systems, Inc. and its affiliates
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Lab guide: AI-driven network operations with VS Code, Copilot, MCP, CML and pyATS
 
 **Goal.** Build the full environment end to end so you can drive **pyATS/Unicon**

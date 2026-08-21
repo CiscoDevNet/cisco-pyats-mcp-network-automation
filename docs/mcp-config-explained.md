@@ -1,3 +1,9 @@
+<!--
+Copyright 2026 Cisco Systems, Inc. and its affiliates
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # The MCP client configuration explained
 
 This is a beginner-friendly walkthrough of `.vscode/mcp.json` — the file that tells

@@ -1,3 +1,9 @@
+<!--
+Copyright 2026 Cisco Systems, Inc. and its affiliates
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Cisco pyATS CLI commands: practical cheat sheet
 
 A hands-on reference for the Cisco **pyATS** and **Genie** CLI commands used most

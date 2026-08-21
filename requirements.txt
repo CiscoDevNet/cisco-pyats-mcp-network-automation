@@ -1,3 +1,7 @@
+# Copyright 2026 Cisco Systems, Inc. and its affiliates
+#
+# SPDX-License-Identifier: Apache-2.0
+
 # Model Context Protocol SDK for the server transport and tool decorators.
 mcp>=1.2.0
 

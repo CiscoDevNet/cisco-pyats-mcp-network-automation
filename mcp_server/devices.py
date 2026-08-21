@@ -1,4 +1,5 @@
-# Copyright (c) 2026 Ranil Fernando
+# Copyright 2026 Cisco Systems, Inc. and its affiliates
+#
 # SPDX-License-Identifier: Apache-2.0
 """Thin pyATS wrapper: testbed loading and short-lived device connections."""
 

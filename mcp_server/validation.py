@@ -1,4 +1,5 @@
-# Copyright (c) 2026 Ranil Fernando
+# Copyright 2026 Cisco Systems, Inc. and its affiliates
+#
 # SPDX-License-Identifier: Apache-2.0
 """Guardrails applied to every command an LLM asks the server to run.
 
