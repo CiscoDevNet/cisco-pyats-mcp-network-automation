@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 # Security Policies and Procedures
 
 This document outlines security procedures and general policies for the
-`<project name>` project.
+`cisco-pyats-mcp-network-automation` project.
 
 - [Reporting a Bug](#reporting-a-bug)
 - [Disclosure Policy](#disclosure-policy)
